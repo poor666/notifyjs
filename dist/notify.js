@@ -259,8 +259,7 @@
 	};
 
 	var encode = function(text) {
-		encode.e = encode.e || createElem("div");
-		return encode.e.text(text).html();
+		return text;
 	};
 
 	function Notification(elem, data, options) {
